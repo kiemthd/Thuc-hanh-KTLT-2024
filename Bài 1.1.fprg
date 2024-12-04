@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="B&#224;i 1.1"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 07:56:35 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC1SQU5VNTU4TjsyMDI0LTEwLTAyOzA3OjM2OjU2IFBNOzI4MDg="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1SQU5VNTU4TjsyMDI0LTEwLTAyOzA3OjU2OjM1IFBNOzI7MjkxNg=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;My name is Huy&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
