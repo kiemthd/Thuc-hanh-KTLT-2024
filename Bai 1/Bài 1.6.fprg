@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="B&#224;i 1.6"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-08 06:59:29 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC1SQU5VNTU4TjsyMDI0LTEwLTA2OzEwOjA1OjMwIEFNOzI3Nzk="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1SQU5VNTU4TjsyMDI0LTEwLTA4OzA2OjU5OjI5IFBNOzI7MjkyNw=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;&#272;&#192;O QUANG HUY 235752021610051&quot;" newline="True"/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <output expression="&quot;nh&#7853;p s&#7889; c&#7847;n ki&#7875;m tra&quot;" newline="True"/>
+            <input variable="n"/>
+            <if expression="n==1">
+                <then>
+                    <output expression="&quot;kh&#244;ng ph&#7843;i l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                </then>
+                <else>
+                    <if expression="n&lt;4">
+                        <then>
+                            <output expression="&quot;l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                        </then>
+                        <else>
+                            <declare name="i" type="Integer" array="False" size=""/>
+                            <assign variable="i" expression="2"/>
+                            <while expression="n%i!=0">
+                                <assign variable="i" expression="i+1"/>
+                            </while>
+                            <if expression="i==n">
+                                <then>
+                                    <output expression="&quot;l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                                </then>
+                                <else>
+                                    <output expression="&quot;kh&#244;ng l&#224; s&#7889; nguy&#234;n t&#7889;&quot;" newline="True"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

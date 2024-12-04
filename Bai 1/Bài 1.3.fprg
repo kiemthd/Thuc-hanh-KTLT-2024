@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="4.2">
+    <attributes>
+        <attribute name="name" value="B&#224;i 1.3"/>
+        <attribute name="authors" value="LENOVO"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2024-10-02 08:16:56 PM"/>
+        <attribute name="created" value="TEVOT1ZPO0xBUFRPUC1SQU5VNTU4TjsyMDI0LTEwLTAyOzA4OjA4OjA0IFBNOzI4MDE="/>
+        <attribute name="edited" value="TEVOT1ZPO0xBUFRPUC1SQU5VNTU4TjsyMDI0LTEwLTAyOzA4OjE2OjU2IFBNOzE7MjkxNQ=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="The if Statement inside the loop will print the correct lyric : bottles vs.bottle.&#13;&#10;&#13;&#10;This version uses a For Loop rather than a while Loop. It will only work in version 1.7 and later."/>
+            <declare name="n" type="Integer" array="False" size=""/>
+            <for variable="n" start="99" end="1" direction="dec" step="1">
+                <if expression="n==1">
+                    <then>
+                        <output expression="&quot;One bottle of beer on the wall&quot;" newline="True"/>
+                    </then>
+                    <else>
+                        <output expression="n &amp; &quot;bottles of beer on the wall&quot;" newline="True"/>
+                    </else>
+                </if>
+            </for>
+        </body>
+    </function>
+</flowgorithm>
