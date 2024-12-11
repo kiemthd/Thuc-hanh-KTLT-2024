@@ -11,8 +11,8 @@
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <output expression="&quot;SVTH &#272;&#192;O QUANG HUY&quot;" newline="True"/>
-            <output expression="&quot;MSSV 235752021610051&quot;" newline="True"/>
+            <output expression="&quot;SVTH &#272;&#192;O THANH KIEM&quot;" newline="True"/>
+            <output expression="&quot;MSSV 235752021610003&quot;" newline="True"/>
             <declare name="area" type="Real" array="False" size=""/>
             <declare name="radius" type="Integer" array="False" size=""/>
             <output expression="&quot;Please enter the radius of a circle&quot;" newline="True"/>
